@@ -9,4 +9,4 @@ COPY data/db.json /app/data/db.json
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["python", "/app/ddns_updater.py"]
+CMD ["python", "/src/main.py"]
